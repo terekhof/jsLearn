@@ -1,0 +1,42 @@
+body {
+  background: #95B8D1;
+}
+
+.container {
+  width: 500px;
+  margin: 250px auto;
+}
+
+.content {
+  padding: 1rem;
+  background: #F5F5F5;
+  text-align: center;
+}
+
+.title, .delivered {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.input {
+  margin-bottom: 0.5rem;
+  width: 450px;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.button {
+  display: block;
+  background: #95B8D1;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+}
+
+.result {
+  font-size: 1.5rem;
+  color: #95B8D1;
+  font-weight: bold;
+}
