@@ -1,0 +1,59 @@
+body {
+  background: rgb(211, 203, 160);
+  background: url("/img/background.jpg") 
+}
+
+span {
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  margin: 250px auto;
+  width: 400px;
+}
+
+.content {
+  text-align: center;
+  border: 2px solid white;
+  padding: 2rem;
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  margin: 0;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.button, .number {
+  display: block;
+  margin: 0 auto;
+}
+
+.button {
+  background: #0D2C54;
+  color: white;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: 8rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  max-width: 200px;
+  text-align: center;
+  color: white;
+}
